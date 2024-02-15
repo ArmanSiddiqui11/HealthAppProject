@@ -6,6 +6,32 @@
     <string name="careteam">Care Team</string>
     <string name="open">Open Navigation Drawer</string>
     <string name="close">Close Navigation Drawer</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="desc1"><b>Key Nutrients and Their Functions</b></string>
+    <string name="desc2"><b>1. Carbohydrates:</b></string>
+      <string name="carbo">Carbohydrates are the body primary source of energy.
+        They are found in foods like bread, pasta, rice, fruits, and vegetables. Carbohydrates are broken down into glucose,
+        which is used by the body for immediate energy or stored as glycogen in the liver and muscles for later use.</string>
+    <string name="desc3">2.<b> Proteins:</b></string>
+    <string name="proto">Proteins are essential for building and repairing tissues, synthesizing enzymes and hormones, and supporting
+        immune function. Good sources of protein include meat, poultry, fish, eggs, dairy products, legumes, nuts, and seeds.</string>
+    <string name="desc4"><b>3. Fats:</b></string>
+    <string name="fato">Fats are a concentrated source of energy and play a vital role in cell structure, hormone production,
+        and absorption of fat-soluble vitamins (A, D, E, K). Healthy fats, such as those found in avocados,
+        nuts, seeds, olive oil, and fatty fish, should be included in the diet in moderation.</string>
+
+    <string name="desc">Nutrition is the process by which organisms obtain and utilize food for energy, growth,
+        and maintenance of bodily functions. It involves the intake of nutrients, which are substances that provide
+        energy and are essential for the proper functioning of the body. Nutrients are classified into several categories,
+        including carbohydrates, proteins, fats, vitamins, minerals, and water.</string>
+    <string name="desc5"><b>4. Vitamins and Minerals:</b></string>
+    <string name="vita">Vitamins and minerals are essential micronutrients that play various roles in maintaining
+        overall health. They are involved in processes such as immune function, bone health, metabolism, and energy
+        production. Good food sources of vitamins and minerals include fruits, vegetables, whole grains, lean meats,
+        and dairy products.</string>
+    <string name="desc6"><b>5. Water:</b></string>
+    <string name="wat">Water is essential for hydration and plays a crucial role in various bodily functions, including regulating
+        body temperature, transporting nutrients and oxygen, and removing waste products. It\'s important to stay
+        hydrated by drinking an adequate amount of water throughout the day.</string>
 </resources>
