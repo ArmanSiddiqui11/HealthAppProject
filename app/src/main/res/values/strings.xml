@@ -10,7 +10,7 @@
 
     <string name="desc1"><b>Key Nutrients and Their Functions</b></string>
     <string name="desc2"><b>1. Carbohydrates:</b></string>
-      <string name="carbo">Carbohydrates are the body primary source of energy.
+    <string name="carbo">Carbohydrates are the body primary source of energy.
         They are found in foods like bread, pasta, rice, fruits, and vegetables. Carbohydrates are broken down into glucose,
         which is used by the body for immediate energy or stored as glycogen in the liver and muscles for later use.</string>
     <string name="desc3">2.<b> Proteins:</b></string>

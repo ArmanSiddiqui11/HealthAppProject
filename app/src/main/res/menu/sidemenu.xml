@@ -41,9 +41,6 @@
                 <item android:id="@+id/policy"
                     android:icon="@drawable/baseline_policy_24"
                     android:title="Privacy Policy"/>
-                <item android:id="@+id/version"
-                    android:icon="@drawable/baseline_data_saver_on_24"
-                    android:title="Version Info"/>
                 <item android:id="@+id/careeam"
                     android:icon="@drawable/baseline_groups_24"
                     android:title="Care Team"/>

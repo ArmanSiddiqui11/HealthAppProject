@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -20,8 +19,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     FrameLayout frameLayout;
@@ -99,9 +96,8 @@ replaceFragment(new HomeFragment());
         }
         else if(item.getItemId()==R.id.policy){
             Toast.makeText(MainActivity.this, "Privacy Policy Selected", Toast.LENGTH_SHORT).show();
-        }
-        else if(item.getItemId()==R.id.version){
-            Toast.makeText(MainActivity.this, "Version Info Selected", Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(MainActivity.this,privacyActivity.class);
+            startActivity(intent);
         }
             else if(item.getItemId()==R.id.about){
                 Intent intent=new Intent(MainActivity.this, profileActivity.class);
