@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         bottomNavigationView=findViewById(R.id.bottom_navigation);
         frameLayout=findViewById(R.id.frame_layout);
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -85,12 +88,6 @@ replaceFragment(new HomeFragment());
         if(item.getItemId()==R.id.home){
                 Toast.makeText(MainActivity.this, "Home Selected", Toast.LENGTH_SHORT).show();
             }
-            else if(item.getItemId()==R.id.healthTips){
-                Toast.makeText(MainActivity.this, "Health Tips Selected", Toast.LENGTH_SHORT).show();
-            }
-            else if(item.getItemId()==R.id.stories){
-                Toast.makeText(MainActivity.this, "Stories Selected", Toast.LENGTH_SHORT).show();
-            }
         else if(item.getItemId()==R.id.help){
             Toast.makeText(MainActivity.this, "Help Selected", Toast.LENGTH_SHORT).show();
         }
@@ -109,9 +106,18 @@ replaceFragment(new HomeFragment());
             }
             else if(item.getItemId()==R.id.share){
                 Toast.makeText(MainActivity.this, "Share Selected", Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT,"Health Connect");
+            startActivity(Intent.createChooser(intent,"Share via"));
             }
             else if(item.getItemId()==R.id.rate_us){
                 Toast.makeText(MainActivity.this, "Rate Us Selected", Toast.LENGTH_SHORT).show();
+            RateUsDialog rateUsDialog=new RateUsDialog(MainActivity.this);
+            rateUsDialog.setCancelable(false);
+            rateUsDialog.show();
+            rateUsDialog.getWindow().setBackgroundDrawable(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
             }
 
 

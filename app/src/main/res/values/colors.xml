@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#ff0000</color>
     <color name="green">#99CB5E</color>
+    <color name="dialog_color1">#FDD736</color>
+    <color name="dialog_color2">#3b5796</color>
 </resources>

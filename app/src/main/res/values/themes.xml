@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.HealthApp" parent="Base.Theme.HealthApp" />
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <!--non selected star color-->
+    <item name="colorControlNormal">#4d000000</item>
+
+        <!-- selected star color-->
+        <item name="colorControlActivated">@color/dialog_color1</item>
+    </style>
 </resources>

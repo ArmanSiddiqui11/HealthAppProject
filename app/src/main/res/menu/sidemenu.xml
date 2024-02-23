@@ -29,21 +29,14 @@
     <item android:title="Communication">
         <menu>
             <group android:checkableBehavior="single">
-                <item android:id="@+id/healthTips"
-                    android:icon="@drawable/baseline_tips_and_updates_24"
-                    android:title="Health Tips"/>
-                <item android:id="@+id/stories"
-                    android:icon="@drawable/baseline_auto_stories_24"
-                    android:title="Success Stories"/>
+
                 <item android:id="@+id/help"
                     android:icon="@drawable/baseline_help_outline_24"
                     android:title="Help/FAQ"/>
                 <item android:id="@+id/policy"
                     android:icon="@drawable/baseline_policy_24"
                     android:title="Privacy Policy"/>
-                <item android:id="@+id/careeam"
-                    android:icon="@drawable/baseline_groups_24"
-                    android:title="Care Team"/>
+
                 <item android:id="@+id/share"
                     android:icon="@drawable/baseline_share_24"
                     android:title="Share"/>
